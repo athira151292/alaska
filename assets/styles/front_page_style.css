@@ -1,0 +1,82 @@
+#main 
+{
+	width: 100%;
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	height: 628px;
+}
+#banner
+{
+	float: left;
+	margin-left: 12%;
+	margin-top: 4%;
+	width: 42%;
+}
+#banner_text
+{
+	float: left;
+	margin-left: 12%;
+	margin-top: 7%;
+}
+#form
+{
+	margin-left: 24%;
+	margin-top: 44%;
+	height: 193px;
+	width: 487px;
+}
+.text_field
+{
+	float: left;
+	margin-top: 7%;
+	width: 67%;
+	padding: 0 4%;
+}
+.field_bg
+{
+	float: left;
+	height: 43px;
+}
+.field
+{
+	height: 38px;
+	float: left;
+	margin-top: 1px;
+	width: 80%;
+	border: 1px solid black;
+}
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;
+   opacity: 1;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+   opacity: 1;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+#button
+{
+	width: 64%;
+	margin-top: 7%;
+	border-radius: 0px;
+	border: 1px solid white;
+	background-color: #002B45;
+	color: white;
+	height: 43px;
+	margin-left: 3%;
+}
+#russell
+{
+	float: left;
+	margin-top: 7%;
+}
