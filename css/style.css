@@ -14,8 +14,8 @@ header{
 	padding: 20px;
 }
 #invitation{
-	background: -moz-linear-gradient(#748fba,#8ba6d1);
-    background: -webkit-linear-gradient(#748fba,#8ba6d1);
+	background: linear-gradient(#748fba,#8ba6d1);
+
 	color:white;
 	 height: 3%;
 	 padding: 15px 0;
@@ -41,12 +41,6 @@ header{
   /* equal to footer height */
   margin-bottom: -142px; 
 }
-/******************************************LOGIN CONTAINER******************************************************/
-section
-{
-  float: left;
-  width: 100%;
-}
 #container
 {
     width: 100%;
@@ -56,10 +50,11 @@ section
     float: left;
     position: relative;
 }
-.wrapper
+#main_wrapper
 {
+
     margin: 0 auto;
-    width: 68%;
+    width: 70%;
 }
 #banner
 {
@@ -122,7 +117,7 @@ section
 }
 #button
 {
-    width: 71%;
+    width: 81%;
     margin-top: 7%;
     border-radius: 0px;
     border: 1px solid white;
@@ -139,56 +134,34 @@ section
 }
 #container_border
 {
-    background: -moz-linear-gradient(#748fba,#8ba6d1);
-    background: -webkit-linear-gradient(#748fba,#8ba6d1);
-    height: 7%;
-    float: left;
-    width: 100%;
+background: linear-gradient(#748fba,#8ba6d1);
+height: 7%;
+float: left;
+width: 100%;
 }
-.text_sec1
-{
-    width: 100%;
-    background-color: #F2F5FA;   
-    margin-top: 52%;
-    font-size: 17px;
-    padding-bottom: 3%;
+
+/*//////////////////REGISTRATION FORM//////////////////*/
+#reg-form-wrapper {
+    background: linear-gradient(rgba(94, 98, 102, 0.69), rgba(255, 255, 255, 0.99)) transparent;
+    height: 70%;
+    margin: 50px 20%;
+    width: 60%;
 }
-.text_white
-{
-  color: #2E2E2E;
-  text-align: center;
-  margin: 0px;
-}
-.text_blue
-{
-    color: #7098CB;
+#reg-form-header{
+    background-color: rgb(10,46,70); 
+    height: 55px;
     text-align: center;
-    margin: 0px;
+    display: table;
 }
-#text_sec2
-{
-    width: 100%;
-    background-color: #E8ECF5;
-    font-size: 18px;
-    padding: 3% 0%;
+#reg-form-heading{
+    color: #FFF;
+    display: table-cell;
+    vertical-align: middle;
+    width: 772px;
+
 }
-.italic
-{
-  font-style: italic;
-}
-#text_sec3
-{
-    width: 100%;
-    background-color: #F2F5FA;
-    font-size: 17px;
-    padding: 4% 0%;
-}
-#image
-{
-  width: 100%;
-  float: left;
-   padding-bottom: 10%;
-}
+
+
 /******FOOTER****************************************************************************************************/
 .site-footer{
 	height: 212px;
@@ -208,8 +181,7 @@ section
     float: left;
 }
 #footer-sec2{
-	background: -moz-linear-gradient(#748fba,#8ba6d1);
-    background: -webkit-linear-gradient(#748fba,#8ba6d1);
+	background: linear-gradient(#748fba,#8ba6d1);
     height: 62px;
     color: #FFF;
     float: left;
