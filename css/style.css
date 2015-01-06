@@ -40,6 +40,12 @@ header{
   /* equal to footer height */
   margin-bottom: -142px; 
 }
+/******************************************LOGIN CONTAINER******************************************************/
+section
+{
+  float: left;
+  width: 100%;
+}
 #container
 {
     width: 100%;
@@ -49,11 +55,10 @@ header{
     float: left;
     position: relative;
 }
-#main_wrapper
+.wrapper
 {
-
     margin: 0 auto;
-    width: 70%;
+    width: 68%;
 }
 #banner
 {
@@ -116,7 +121,7 @@ header{
 }
 #button
 {
-    width: 81%;
+    width: 71%;
     margin-top: 7%;
     border-radius: 0px;
     border: 1px solid white;
@@ -133,12 +138,55 @@ header{
 }
 #container_border
 {
-background: -moz-linear-gradient(#748fba,#8ba6d1);
-height: 7%;
-float: left;
-width: 100%;
+    background: -moz-linear-gradient(#748fba,#8ba6d1);
+    height: 7%;
+    float: left;
+    width: 100%;
 }
-
+.text_sec1
+{
+    width: 100%;
+    background-color: #F2F5FA;   
+    margin-top: 52%;
+    font-size: 17px;
+    padding-bottom: 3%;
+}
+.text_white
+{
+  color: #2E2E2E;
+  text-align: center;
+  margin: 0px;
+}
+.text_blue
+{
+    color: #7098CB;
+    text-align: center;
+    margin: 0px;
+}
+#text_sec2
+{
+    width: 100%;
+    background-color: #E8ECF5;
+    font-size: 18px;
+    padding: 3% 0%;
+}
+.italic
+{
+  font-style: italic;
+}
+#text_sec3
+{
+    width: 100%;
+    background-color: #F2F5FA;
+    font-size: 17px;
+    padding: 4% 0%;
+}
+#image
+{
+  width: 100%;
+  float: left;
+   padding-bottom: 10%;
+}
 /******FOOTER****************************************************************************************************/
 .site-footer{
 	height: 212px;
