@@ -15,6 +15,7 @@ header{
 }
 #invitation{
 	background: -moz-linear-gradient(#748fba,#8ba6d1);
+    background: -webkit-linear-gradient(#748fba,#8ba6d1);
 	color:white;
 	 height: 3%;
 	 padding: 15px 0;
@@ -139,6 +140,7 @@ section
 #container_border
 {
     background: -moz-linear-gradient(#748fba,#8ba6d1);
+    background: -webkit-linear-gradient(#748fba,#8ba6d1);
     height: 7%;
     float: left;
     width: 100%;
@@ -207,6 +209,7 @@ section
 }
 #footer-sec2{
 	background: -moz-linear-gradient(#748fba,#8ba6d1);
+    background: -webkit-linear-gradient(#748fba,#8ba6d1);
     height: 62px;
     color: #FFF;
     float: left;
