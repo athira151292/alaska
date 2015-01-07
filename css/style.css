@@ -185,9 +185,8 @@ section
 }
 #image
 {
-  width: 100%;
   float: left;
-   padding-bottom: 10%;
+  padding-bottom: 10%;
 }
 
 /*//////////////////REGISTRATION FORM//////////////////*/
