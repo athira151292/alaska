@@ -191,10 +191,12 @@ section
 
 /*//////////////////REGISTRATION FORM//////////////////*/
 #reg-form-wrapper {
-    background: linear-gradient(rgba(94, 98, 102, 0.69), rgba(255, 255, 255, 0.99)) transparent;
-    height: 70%;
-    margin: 50px 20%;
-    width: 60%;
+    background-image: url("../images/form_bg.jpg");
+    background-size: contain;
+    height: 77%;
+    margin: 5% auto;
+    width: 59%;
+
 }
 #reg-form-header{
     background-color: rgb(10,46,70); 
@@ -207,9 +209,12 @@ section
     display: table-cell;
     vertical-align: middle;
     width: 772px;
-
 }
-
+#man
+{
+  float: right;
+  padding-top: 50px;
+}
 /******FOOTER****************************************************************************************************/
 .site-footer{
   	height: 212px;
