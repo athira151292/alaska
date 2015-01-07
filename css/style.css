@@ -13,6 +13,8 @@ header{
 }
 #invitation{
 	background-color: rgb(118,145,188);
+  background: -moz-linear-gradient(#748fba,#8ba6d1);
+   background: -webkit-linear-gradient(#748fba,#8ba6d1);
 	color:white;
 	 height: 3%;
 	 padding: 15px 0;
@@ -126,6 +128,8 @@ section
 #container_border
 {
     background-color: rgb(118,145,188);
+    background: -moz-linear-gradient(#748fba,#8ba6d1);
+    background: -webkit-linear-gradient(#748fba,#8ba6d1);
     height: 7%;
     float: left;
     width: 100%;
@@ -155,7 +159,8 @@ section
     width: 100%;
     background-color: #E8ECF5;
     font-size: 18px;
-    padding: 3% 0%;
+    padding: 3% 0%;background: -moz-linear-gradient(#748fba,#8ba6d1);
+   background: -webkit-linear-gradient(#748fba,#8ba6d1);
 }
 .italic
 {
