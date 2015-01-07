@@ -156,11 +156,10 @@ section
 }
 #text_sec2
 {
-    width: 100%;
+   width: 100%;
     background-color: #E8ECF5;
     font-size: 18px;
-    padding: 3% 0%;background: -moz-linear-gradient(#748fba,#8ba6d1);
-   background: -webkit-linear-gradient(#748fba,#8ba6d1);
+    padding: 3% 0%;
 }
 .italic
 {
