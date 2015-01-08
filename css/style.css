@@ -265,8 +265,9 @@ section
 .guest-plus_one {
     position: absolute;
     top: 120px;
-    width: 292px;
+    width: 266px;
     left: 555px;
+
 }
 #question-to-russell {
     border-color: #000000;
@@ -289,7 +290,7 @@ section
 }
 #reg-submit-container{
     margin-top: 34px;
-    padding-bottom: 30px;
+    padding-bottom: 82px;
 }
 #reg-submit{
     width: 225px;
@@ -301,14 +302,31 @@ section
     border-width: 1px;
     background-color: rgba(0, 43, 69, 1);
     color: #fff;
+    float: left;
+    
+
 }
 #russell-autograph{
-    font-size: 13px;
-    font-size: 13px;
+   font-size: 13px;
     width: 312px;
     float: right;
     text-align: right;
     margin-top: 17px;
+    margin-right: 4%;
+}
+
+/*////////////////REGISTERED SUCCESSFULLY////////////////////////*/
+#registered_text
+{
+    margin: 24% 14%;
+    padding-right: 143px;
+    padding-bottom: 26%;
+    display:none;
+}
+.align
+{
+    font-size: 15px;
+    text-align: center;
 }
 #event_details
 {
@@ -370,7 +388,7 @@ section
 	 display: table-cell;
     vertical-align: middle; 
 }
-#hor_line{
+#hor-line{
 	opacity: 0.6;
 }
 #footer-partners{
