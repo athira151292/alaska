@@ -204,8 +204,9 @@ section
 #reg-form-wrapper {
     background-image: url('../images/form_bg.jpg');
     background-size: contain;
-    margin: 5% auto;
-    width: 60%;
+    margin: 60px 18%;
+    width: 65%;
+    float: left;
 }
 #reg-form-header{
     background-color: rgb(10,46,70); 
@@ -213,18 +214,29 @@ section
     width: 100%;
     text-align: center;
     display: table;
+    float: left;
 }
 #reg-form-heading{
     text-transform: uppercase;
     color: #FFF;
     display: table-cell;
     vertical-align: middle;
-    width: 772px;
+}
+#reg_form
+{
+    float: left;
+    margin-top: 30px;
+    width: 92%;
+}
+#register-part {
+  display: block;
+  float: left;
 }
 #guest-primary{
 
-    width: 21%;
-    padding: 1px 4%
+    width: 212px;
+    float: left;
+    padding: 1px 4%;
 }
 .field_registration{
         height: 33px;
@@ -236,7 +248,6 @@ section
 #guest-info{ 
     color: #00243C;
     font-size: 12px;
-    margin-top: 22;
 }
 #First_Name{
      background-image: url("../images/user.png");
@@ -268,13 +279,13 @@ section
     bottom: 3px;
 }
 #check-age{
-  width: 480px;
+  float: left;
+  padding: 0 4%;
 }
 .guest-plus_one {
-    position: absolute;
-    top: 120px;
-    width: 266px;
-    left: 555px;
+    width: 225px;
+    float: left;
+    padding-left: 27px;
 
 }
 #question-to-russell {
@@ -288,22 +299,20 @@ section
     height: 85px;
 }
 #plus_one{
-    margin-top: 21px;
+   
 }
 #reg_man-container{
-    width: 225px;
-    position: absolute;
-    right: 262px;
-    top: 175px;
+    float: right;
 }
 #reg-submit-container{
     margin-top: 34px;
     padding-bottom: 82px;
+    float: left;
+    width: 100%;
 }
 #reg-submit{
     width: 225px;
     margin-left: 31px;
-    margin-top: 18px;
     height: 35px;
     border-style: solid;
     border-color: black;
@@ -311,15 +320,14 @@ section
     background-color: rgba(0, 43, 69, 1);
     color: #fff;
     float: left;
-    
-
 }
+
+
 #russell-autograph{
    font-size: 13px;
     width: 312px;
     float: right;
     text-align: right;
-    margin-top: 17px;
     margin-right: 4%;
 }
 
@@ -394,7 +402,7 @@ section
 	 display: table-cell;
     vertical-align: middle; 
 }
-#hor-line{
+#hor_line{
 	opacity: 0.6;
   text-align: center;
 }
@@ -411,11 +419,7 @@ section
 
 }
 #partner-logo{
-	/*width: 100%;
-  float: left;
-  margin-left: 32%;*/
-  display: inline-block;
-   
+  display: inline-block; 
 }
 #john
 {
@@ -499,7 +503,7 @@ section
 
 
 
-/***************MEDIA QUERY FOR IPAD**********************/
+/***************MEDIA QUERY**********************/
 @media screen and (max-width:1280px){
   .wrapper
   {
@@ -507,9 +511,86 @@ section
     margin: 0 auto;
   }
 }
-@media screen and (max-width:928px){
+@media screen and (max-width:960px){
   #russell
   {
     display: none;
+  }
+  .wrapper
+  {
+    width: 65%;
+  }
+  #banner
+  {
+    width: 100%;
+  }
+  #button
+    {
+      margin-bottom: 20px;
+    }
+    .text_sec1
+    {
+      margin-top: 490px;
+    }
+}
+@media screen and (max-width:480px){
+    #field_mail
+    {
+      width: 200px;
+      height: 30px;
+    }
+    #field_mileage
+    {
+      width: 200px;
+      height: 30px;
+    }
+    #form_wrap
+    {
+      margin: 0;
+    }
+    #button
+    {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+    #invitation-dialog
+    {
+      font-size: 12px;
+    }
+    #john
+    {
+        width: 204px;
+        height: 46px;
+        background: url('../images/partner_image.jpg');
+        background-position: 20px 40px;
+        margin-top: 13px;
+        float: left;
+    }
+    #visa
+    {
+        width: 160px;
+        background: url('../images/partner_image.jpg') repeat scroll 0px -146px transparent;
+        height: 44px;
+        margin-top: 18px;
+        float: left;
+    }
+    #seastar{
+        margin-top: 13px;
+        float: left;
+    }
+
+}
+@media screen and (max-width:640px){
+  #icon-play
+  {
+    margin-left: 0;
+  }
+  #invitation-dialog
+  {
+    font-size: 15px;
+  }
+  #hor_line
+  {
+    width: 100%;
   }
 }
