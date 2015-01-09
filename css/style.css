@@ -232,6 +232,9 @@ section
   display: block;
   float: left;
 }
+#register-part{
+    display: block;
+}
 #guest-primary{
 
     width: 212px;
@@ -332,12 +335,18 @@ section
 }
 
 /*////////////////REGISTERED SUCCESSFULLY////////////////////////*/
+#registered-part
+{   
+    padding-bottom: 48%;
+    width: 100%;
+    display:none;
+}
 #registered_text
 {
-    margin: 24% 14%;
-    padding-right: 143px;
-    padding-bottom: 26%;
-    display:none;
+   float: left;
+    margin-top: 119px;
+    padding-left: 15%;
+    width: 53%;
 }
 .align
 {
