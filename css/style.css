@@ -301,9 +301,6 @@ section
     font-size: 12px;
     height: 85px;
 }
-#plus_one{
-   
-}
 #reg_man-container{
     float: right;
 }
@@ -336,6 +333,69 @@ section
 
 /* for error messages */
 
+
+.firstWrapper
+{
+  position: relative;
+}
+#first_error
+{
+    display: none;
+    color: red;
+    position: absolute;
+    top: 15px;
+    left: 42px;
+    font-size: 14px;
+    width: 75%;
+    background-color: white;
+}
+.lastWrapper
+{
+  position: relative;
+}
+#last_error
+{
+    display: none;
+    color: red;
+    position: absolute;
+    top: 15px;
+    left: 42px;
+    font-size: 14px;
+    width: 75%;
+    background-color: white;
+}
+
+.emailWrapper
+{
+  position: relative;
+}
+#email_error
+{
+    display: none;
+    color: red;
+    position: absolute;
+    top: 15px;
+    left: 42px;
+    font-size: 14px;
+    width: 75%;
+    background-color: white;
+}
+
+.mileageWrapper
+{
+  position: relative;
+}
+#mileage_error
+{
+    display: none;
+    color: red;
+    position: absolute;
+    top: 15px;
+    left: 42px;
+    font-size: 14px;
+    width: 75%;
+    background-color: white;
+}
 .donateWrapper{
   position:relative;
 }
@@ -348,8 +408,8 @@ section
     font-size: 14px;
     width: 75%;
     background-color: white;
-
 }
+
 
 /*////////////////REGISTERED SUCCESSFULLY////////////////////////*/
 #registered-part
