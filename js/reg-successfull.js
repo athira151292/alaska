@@ -21,7 +21,7 @@ function ckeckValidation() {
 	{
 		if(donate_value.value<2500)
 		{
-			donate_value.value = "Error: 2500 minimum.";
+			document.getElementById('donate_error').style.display= 'block';
 		}
 		else{
 				document.getElementById('register-part').style.display='none';

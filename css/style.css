@@ -334,6 +334,23 @@ section
     margin-right: 4%;
 }
 
+/* for error messages */
+
+.donateWrapper{
+  position:relative;
+}
+#donate_error{
+    display: none;
+    color: red;
+    position: absolute;
+    top: 15px;
+    left: 42px;
+    font-size: 14px;
+    width: 75%;
+    background-color: white;
+
+}
+
 /*////////////////REGISTERED SUCCESSFULLY////////////////////////*/
 #registered-part
 {   

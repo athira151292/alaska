@@ -30,8 +30,10 @@
 												<input class="field_registration" id="Last_name" type="text" pattern="[A-Za-z]{3,20}"  autocomplete="off" placeholder="Last name" required>
 												<input class="field_registration" id="E-mail_address" type="email" placeholder="E-mail address" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" required>
 												<input class="field_registration" id="Mileage" type="text" pattern="^(0|[1-9][0-9]*)$" placeholder="Mileage #"  required>
-												<input class="field_registration" id="Donate_mileage" type="text" pattern="^(0|[1-9][0-9]*)$" placeholder="Donate mileage plan miles" pattern"[0-9]" required>
-												
+												<div class="donateWrapper">
+													<input class="field_registration" id="Donate_mileage" type="text" pattern="^(0|[1-9][0-9]*)$" placeholder="Donate mileage plan miles" pattern"[0-9]" required>
+													<p id="donate_error"> Error: 2500 minimum.</p>
+												</div>
 										</div>
 										<div class="guest-plus_one">
 											<input type="checkbox" id="plus_one" name="over_age" ><span id="over-age_text">Plus One</span>
