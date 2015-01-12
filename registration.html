@@ -27,31 +27,31 @@
 										<div id="guest-primary">
 												<div id="guest-info">Primary Guest Information</div>
 												<div class="firstWrapper">
-												    <input class="field_registration" id="First_Name" type="text" title="username" pattern="[A-Za-z]{3,20}" autofocus="" autocomplete="off" placeholder="First Name" required>
-												    <p id="first_error">Error: Fill out this field.</p>
+												    <input class="field_registration" id="First_Name" type="text" title="username"  autofocus="" autocomplete="off" placeholder="First Name">
+												    <p id="first_error" onclick="hide_error('first_error','First_Name')">Error: Fill out this field.</p>
 												</div>
 												<div class="lastWrapper">
-												    <input class="field_registration" id="Last_name" type="text" pattern="[A-Za-z]{3,20}"  autocomplete="off" placeholder="Last name" required>
-												    <p id="last_error">Error: Fill out this field.</p>
+												    <input class="field_registration" id="Last_name" type="text"   autocomplete="off" placeholder="Last name" >
+												    <p id="last_error" onclick="hide_error('last_error','Last_name')">Error: Fill out this field.</p>
 												</div>
 												<div class="emailWrapper">
-													<input class="field_registration" id="E-mail_address" type="email" placeholder="E-mail address" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" required>
-													<p id="email_error">Error: Fill out this field.</p>
+													<input class="field_registration" id="E-mail_address" type="email" placeholder="E-mail address" autocomplete="off" >
+													<p id="email_error" onclick="hide_error('email_error','mail_address')">Error: Fill out this field.</p>
 												</div>
 												<div class="mileageWrapper">
-													<input class="field_registration" id="Mileage" type="text" pattern="^(0|[1-9][0-9]*)$" placeholder="Mileage #"  required>
-													<p id="mileage_error">Error: Fill out this field.</p>
+													<input class="field_registration" id="Mileage" type="text"  placeholder="Mileage #" autocomplete="off" >
+													<p id="mileage_error" onclick="hide_error('mileage_error','Mileage')">Error: Fill out this field.</p>
 												</div>
 												<div class="donateWrapper">
-													<input class="field_registration" id="Donate_mileage" type="text" pattern="^(0|[1-9][0-9]*)$" placeholder="Donate mileage plan miles" pattern"[0-9]" required>
-													<p id="donate_error"> Error: 2500 minimum.</p>
+													<input class="field_registration" id="Donate_mileage" type="text" placeholder="Donate mileage plan miles" pattern"[0-9]"  >
+													<p id="donate_error"  onclick="hide_error('donate_error','Donate_mileage')"> Error: 2500 minimum.</p>
 												</div>
 										</div>
 										<div class="guest-plus_one">
-											<input type="checkbox" id="plus_one" name="over_age" ><span id="over-age_text">Plus One</span>
-											<input class="field_registration" id="First_Name" type="text" pattern="[A-Za-z]{3,20}" placeholder="First Name" >
-											<input class="field_registration" id="Last_name" type="text" pattern="[A-Za-z]{3,20}" placeholder="Last name" >
-											<textarea id="question-to-russell" placeholder="Do you have a question for Russell? A few lucky guests will be selected to ask on stage"></textarea>
+											<input type="checkbox" id="plus_one" name="over_age" autocomplete="off" ><span id="over-age_text">Plus One</span>
+											<input class="field_registration" id="First_Name" type="text"  placeholder="First Name" autocomplete="off" >
+											<input class="field_registration" id="Last_name" type="text" placeholder="Last name"autocomplete="off" >
+											<textarea id="question-to-russell" placeholder="Do you have a question for Russell? A few lucky guests will be selected to ask on stage" autocomplete="off"></textarea>
 										</div>
 										<div id="reg_man-container"><img src="images/reg_man.png" id="man"> 
 										</div>
@@ -59,7 +59,7 @@
 													<input type="checkbox" id="over_age" name="over_age"><span id="over-age_text">I Declare that my guest and I will be over the age of 21 at the time of event.</span>
 										</div>
 										<div id="reg-submit-container">
-												<input type="button" id="reg-submit" onclick="ckeckValidation();" value="Submit RSVP" />
+												<input type="button" id="reg-submit" value="Submit RSVP" onclick="checkValidation()"/>
 												<div id="russell-autograph">Please not that there will not be the opportunity for autographs with Russell Wilson
 												</div>
 										</div>    

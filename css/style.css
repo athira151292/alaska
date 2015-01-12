@@ -406,7 +406,7 @@ section
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 75%;
+    width: 88%;
     background-color: white;
 }
 
@@ -462,6 +462,7 @@ section
   color: #7098CB;
   margin: 0px;
   font-weight: bold;
+
 }
 
 /******FOOTER****************************************************************************************************/
@@ -499,13 +500,16 @@ section
 
 }
 #footer-partners-heading{
-	margin-top: 10px;
-	text-transform: uppercase;
-	font-size: 9px;
-
+	margin-top: 9px;
+  text-transform: uppercase;
+  font-size: 9px;
+  float: left;
+  padding-left: 43%;
 }
 #partner-logo{
-  display: inline-block; 
+  display: inline-block;
+  float: left;
+  padding-left: 33%;
 }
 #john
 {
@@ -643,27 +647,70 @@ section
     {
       font-size: 12px;
     }
+    #event_details {
+    margin: 40px auto;
+    width: 100%;
+    float: left;
+    }
+    #date{
+      float: none;
+    }
     #john
     {
-        width: 204px;
+        width: 37%;
         height: 46px;
-        background: url('../images/partner_image.jpg');
-        background-position: 20px 40px;
+        background: url('../images/sprite.png') repeat scroll 0px -108px transparent;
         margin-top: 13px;
         float: left;
+        margin-left: -23%;
     }
     #visa
     {
-        width: 160px;
-        background: url('../images/partner_image.jpg') repeat scroll 0px -146px transparent;
-        height: 44px;
-        margin-top: 18px;
+       background: url('../images/sprite.png') repeat scroll 185px -146px transparent;
+        width: 29%;
+        height: 43px;
         float: left;
     }
     #seastar{
         margin-top: 13px;
         float: left;
     }
+    #blue{
+      color: #7098CB;
+    font-weight: bold;
+    margin-top: 36px;
+    text-align: center;
+    font-size: 9px;
+    }
+    .blue {
+    color: #7098CB;
+    margin: 6px auto;
+    font-weight: bold;
+    font-size: 9px;
+    }
+    .italic {
+    font-style: italic;
+    padding-right: 13%;
+    }
+   .white {
+    color: #2E2E2E;
+    text-align: center;
+    font-size: 9px;
+    }
+    #footer-partners-heading {
+    margin-top: 9px;
+    text-transform: uppercase;
+    font-size: 9px;
+    float: left;
+    padding-left: 29%;
+    }
+    #partner-logo {
+    display: inline-block;
+    padding-left: 33%;
+    float: left;
+    width: 100%;
+  }
+
 
 }
 @media screen and (max-width:640px){
@@ -679,4 +726,5 @@ section
   {
     width: 100%;
   }
+  
 }
