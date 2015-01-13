@@ -294,7 +294,7 @@ section
     border-style: solid;
     border-width: 1px;
     margin-top: 20px;
-    width: 218px;
+    width: 225px;
     font-size: 12px;
     height: 85px;
 }
@@ -620,7 +620,7 @@ section
       margin-top: 490px;
     }
 }
-@media screen and (max-width:480px){
+@media screen and  (min-width:320px and max-width:480px){
     #field_mail
     {
       width: 200px;
@@ -658,9 +658,9 @@ section
     }
     #john
     {
-        width: 65%;
+        width: 37%;
         height: 46px;
-        background: url('../images/sprite.png') repeat scroll 64px -108px transparent;
+        background: url('../images/sprite.png') repeat scroll 0px -108px transparent;
         margin-top: 13px;
         float: left;
         margin-left: -23%;
@@ -668,11 +668,10 @@ section
     #visa
     {
        background: url('../images/sprite.png') repeat scroll 185px -146px transparent;
-        width: 36%;
+        width: 29%;
         height: 43px;
         float: left;
     }
-  
     #seastar{
         margin-top: 13px;
         float: left;
@@ -686,21 +685,18 @@ section
     }
     .blue {
     color: #7098CB;
-    margin: 5px auto;
+    margin: 6px auto;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 9px;
     }
     .italic {
     font-style: italic;
-    }
-    #venue
-    {
-      text-align: center;
+    padding-right: 13%;
     }
    .white {
     color: #2E2E2E;
     text-align: center;
-    font-size: 10px;
+    font-size: 9px;
     }
     #footer-partners-heading {
     margin-top: 9px;
@@ -711,9 +707,13 @@ section
     }
     #partner-logo {
     display: inline-block;
-    padding-left: 0%;
+    padding-left: 33%;
     float: left;
     width: 100%;
+  }
+  #registered_text{
+    padding-left: 25%;
+    width: 50%;
   }
 
 
@@ -765,10 +765,10 @@ section
 
 #check-age {
     float: left;
-    padding-left:2%;
+    padding: 0 2%;
     position: absolute;
     top: 417px;
-    width: 200px;
+    width: 300px;
 }
 #reg_man-container
   {
@@ -781,7 +781,7 @@ section
   #russell-autograph {
   font-size: 11px;
   margin-top: 60px;
-  width: 215px;
+  width: 232px;
   float: none;
   text-align: left;
   margin-right: 14%;
@@ -798,16 +798,19 @@ section
   #hor_line
   {
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.8;
   }
-
+  #over-age_text
+  {
+     padding-right: 23%;
+  }
   #question-to-russell
   {
-    width: 180px;
+    width: 215px;
   }
   #reg-submit
   {
-    width: 180px;
+    width: 215px;
   }
   
 #reg-form-heading {

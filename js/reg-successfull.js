@@ -63,16 +63,18 @@ function ckeckValidation()
 				
 	
 
-			function hide_error(id1, id2)
-			{
-
-				document.getElementById(id1).style.display='none';
-				document.getElementById(id2).value="";
-			}
+			
 		}
 		else
 		{
 			alert("Sorry, You are not allowed !!");
 		}
 }
+
+function hide_error(id1, id2)
+			{
+
+				document.getElementById(id1).style.display='none';
+				document.getElementById(id2).value="";
+			}
 
