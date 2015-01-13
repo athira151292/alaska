@@ -1,14 +1,6 @@
 
-function ckeckValidation(check_age) {
+function ckeckValidation() {
 
-	// check_age=getElementById('over_age');
-  
-// if(!this.form.check_age.checked)
-// {
-    // alert('You must agree to the terms first.');
-    // return false;
-// }
-// else{
 	var f_name = document.getElementById('First_Name').value;
 	var l_name=document.getElementById('Last_name').value;
 	var mail_value=document.getElementById('E-mail_address').value;
@@ -66,11 +58,10 @@ function ckeckValidation(check_age) {
 		
 }
 
-function hide_error(id1, id2)
-{
+	function hide_error(id1, id2)
+	{
 
-	document.getElementById(id1).style.display='none';
-	document.getElementById(id2).value="";
-}
+		document.getElementById(id1).style.display='none';
+		document.getElementById(id2).value="";
+	}
 
-}
