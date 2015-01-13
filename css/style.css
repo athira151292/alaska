@@ -343,7 +343,7 @@ section
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 75%;
+    width: 143px;
     background-color: white;
 }
 .lastWrapper
@@ -358,7 +358,7 @@ section
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 75%;
+    width: 143px;
     background-color: white;
 }
 
@@ -374,7 +374,7 @@ section
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 75%;
+    width: 143px;
     background-color: white;
 }
 
@@ -390,7 +390,7 @@ section
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 75%;
+    width: 143px;
     background-color: white;
 }
 .donateWrapper{
@@ -403,7 +403,7 @@ section
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 88%;
+    width: 154px;
     background-color: white;
 }
 
@@ -655,6 +655,10 @@ section
     }
     #date{
       float: none;
+    }
+    #donate_error
+    {
+      width: 148px;
     }
     #john
     {
