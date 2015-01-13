@@ -719,7 +719,14 @@ section
     float: left;
     width: 100%;
   }
-
+  #registered_text
+  {
+    margin-top: 0;
+    float: none;
+    padding-left: 15%;
+    width: 78%;
+}
+  }
 
 }
 @media screen and (min-width: 480px) and (max-width:640px){
@@ -759,17 +766,20 @@ section
   #register-part {
     margin-left: 10%;
   }
+  #plus_one
+  {
+    margin-left: 2px;
+  }
 
 .guest-plus_one {
     float: left;
     margin-top: 78px;
-    padding-left: 13px;
+    padding-left: 11px;
     width: 225px;
 }
 
 #check-age {
     float: left;
-    padding-left:2%;
     position: absolute;
     top: 417px;
     width: 200px;

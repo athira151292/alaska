@@ -24,10 +24,10 @@
 								<form id="form" action="registration.html">
 									<div id="form_wrap">
 										<div class="text_field">
-											<input id="field_mail" type="email" placeholder="Email address" title="email id" required>
+											<input id="field_mail" type="email" placeholder="Email address" title="email id" autocomplete="off" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" required>
 										</div>
 										<div class="text_field">
-											<input id="field_mileage" type="text" placeholder="Mileage #" required>
+											<input id="field_mileage" type="text" placeholder="Mileage #" pattern="^(0|[1-9][0-9]*)$" autocomplete="off" required>
 										</div>
 										<input type="submit" id="button" value="Sign in to RSVP">
 									</div>

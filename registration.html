@@ -27,23 +27,23 @@
 										<div id="guest-primary">
 												<div id="guest-info">Primary Guest Information</div>
 												<div class="firstWrapper">
-												    <input class="field_registration" id="First_Name" type="text" title="username"  autofocus="" autocomplete="off" placeholder="First Name">
+												    <input class="field_registration" id="First_Name" type="text" title="username"  autofocus="" autocomplete="off" placeholder="First Name" onclick="hide_error('first_error','First_Name')">
 												    <p id="first_error" onclick="hide_error('first_error','First_Name')">Error: Fill out this field.</p>
 												</div>
 												<div class="lastWrapper">
-												    <input class="field_registration" id="Last_name" type="text" title="last name" autocomplete="off" placeholder="Last name" >
+												    <input class="field_registration" id="Last_name" type="text" title="last name" autocomplete="off" placeholder="Last name" onclick="hide_error('last_error','Last_name')">
 												    <p id="last_error" onclick="hide_error('last_error','Last_name')">Error: Fill out this field.</p>
 												</div>
 												<div class="emailWrapper">
-													<input class="field_registration" id="E-mail_address" type="email" title="email id"placeholder="E-mail address" autocomplete="off" >
+													<input class="field_registration" id="E-mail_address" type="email" title="email id"placeholder="E-mail address" autocomplete="off" onclick="hide_error('email_error','mail_address')">
 													<p id="email_error" onclick="hide_error('email_error','mail_address')">Error: Fill out this field.</p>
 												</div>
 												<div class="mileageWrapper">
-													<input class="field_registration" id="Mileage" type="text" title="mileage" placeholder="Mileage #" autocomplete="off" >
+													<input class="field_registration" id="Mileage" type="text" title="mileage" placeholder="Mileage #" autocomplete="off" onclick="hide_error('mileage_error','Mileage')" >
 													<p id="mileage_error" onclick="hide_error('mileage_error','Mileage')">Error: Fill out this field.</p>
 												</div>
 												<div class="donateWrapper">
-													<input class="field_registration" id="Donate_mileage" type="text" title="donate mileage" placeholder="Donate mileage plan miles" pattern"[0-9]"  >
+													<input class="field_registration" id="Donate_mileage" type="text" title="donate mileage" placeholder="Donate mileage plan miles" pattern"[0-9]"  onclick="hide_error('donate_error','Donate_mileage')">
 													<p id="donate_error"  onclick="hide_error('donate_error','Donate_mileage')"> Error: 2500 minimum.</p>
 												</div>
 										</div>
