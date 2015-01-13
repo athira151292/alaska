@@ -3,7 +3,7 @@
 		<title>Alaska_registration_page1_groupA_R5</title>
 		 <link rel="stylesheet" type="text/css" href="css/style.css">
 		 <link rel="stylesheet" type="text/css" href="css/normalize.css" >
-		 <script type="text/javascript" src="js files/submit-successfull.js"></script>
+		 <script type="text/javascript" src="js/loginsuccess.js"></script>
 		 <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
@@ -24,10 +24,12 @@
 								<form id="form" action="registration.html">
 									<div id="form_wrap">
 										<div class="text_field">
-											<input id="field_mail" type="email" placeholder="Email address" title="email id" autocomplete="off" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" required>
+											<input id="field_mail" type="email" placeholder="Email address" title="email id">
+											<p id="email_empty_error">Error:Fill out this field</p>
 										</div>
 										<div class="text_field">
-											<input id="field_mileage" type="text" placeholder="Mileage #" pattern="^(0|[1-9][0-9]*)$" autocomplete="off" required>
+											<input id="field_mileage" type="text" placeholder="Mileage #">
+											<p id="mileage_empty_error">Error:Fill out this field</p>
 										</div>
 										<input type="submit" id="button" value="Sign in to RSVP">
 									</div>
