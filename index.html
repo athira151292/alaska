@@ -4,6 +4,7 @@
 		 <link rel="stylesheet" type="text/css" href="css/style.css">
 		 <link rel="stylesheet" type="text/css" href="css/normalize.css" >
 		 <script type="text/javascript" src="js/loginsuccess.js"></script>
+		 <script type="text/javascript" src="js/reg-successfull.js"></script>
 		 <meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
@@ -21,17 +22,19 @@
 								<div id="banner_text">
 									<img src="images/banner_text.png" id="banner_image">
 								</div>
-								<form id="form" onSubmit="return login();">
+								<form id="form">
 									<div id="form_wrap" method="post">
 										<div class="text_field">
-											<input id="field_mail" type="email" placeholder="Email address" title="email id">
-											<p id="email_empty_error">Error:Fill out this field</p>
+											<input id="field_mail" type="email" placeholder="Email address" title="email id" autocomplete="off">
+											<p id="email_empty_error" onclick="hide_error('email_empty_error','field_mail')">Error:Fill out this field</p>
+											<p id="error_email" onclick="hide_error('error_email','field_mail')">Error:Enter an email address</p>
 										</div>
 										<div class="text_field">
-											<input id="field_mileage" type="text" placeholder="Mileage #">
-											<p id="mileage_empty_error">Error:Fill out this field</p>
+											<input id="field_mileage" type="text" placeholder="Mileage #" autocomplete="off">
+											<p id="mileage_empty_error" onclick="hide_error('mileage_empty_error','field_mileage')">Error:Fill out this field</p>
+											<p id="error_mileage" onclick="hide_error('error_mileage','field_mail')">Error:Enter a mileage value</p>
 										</div>
-										<input type="button" id="button" value="Sign in to RSVP" onclick="login('button')">
+										<input type="button" id="button" onclick="login();" value="Sign in to RSVP">
 									</div>
 								</form>
 							</div>

@@ -221,6 +221,26 @@ left: 38px;
 top: 11px;
 display: none;
 }
+#error_email
+{
+  background-color: white;
+  position: absolute;
+  color: red;
+  font-size: 15px;
+  left: 38px;
+  top: 10px;
+  display: none;
+}
+#error_mileage
+{
+  background-color: white;
+  position: absolute;
+  color: red;
+  font-size: 15px;
+  left: 38px;
+  top: 10px;
+  display: none;
+}
 /*//////////////////REGISTRATION FORM//////////////////*/
 #reg-form-wrapper {
     background-image: url('../images/form_bg.jpg');
