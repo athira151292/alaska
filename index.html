@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Alaska_registration_page1_groupA_R5</title>
+		<title>Alaska</title>
 		 <link rel="stylesheet" type="text/css" href="css/style.css">
 		 <link rel="stylesheet" type="text/css" href="css/normalize.css" >
 		 <script type="text/javascript" src="js/loginsuccess.js"></script>
@@ -21,8 +21,8 @@
 								<div id="banner_text">
 									<img src="images/banner_text.png" id="banner_image">
 								</div>
-								<form id="form" action="registration.html">
-									<div id="form_wrap">
+								<form id="form" onSubmit="return login();">
+									<div id="form_wrap" method="post">
 										<div class="text_field">
 											<input id="field_mail" type="email" placeholder="Email address" title="email id">
 											<p id="email_empty_error">Error:Fill out this field</p>
