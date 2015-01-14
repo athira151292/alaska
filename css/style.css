@@ -847,6 +847,42 @@ display: none;
   width: 74%;
   float: left;
   }
+  #error_email
+{
+  background-color: white;
+  position: absolute;
+  color: red;
+  font-size: 15px;
+  left: 38px;
+  top: 6px;
+  display: none;
+}
+#error_mileage
+{
+  background-color: white;
+  position: absolute;
+  color: red;
+  font-size: 15px;
+  left: 38px;
+  top: 6px;
+  display: none;
+}
+#first_error
+{
+  width: 143px;
+}
+#last_error
+{
+  width: 143px;
+}
+#email_error
+{
+   width: 150px;
+}
+#donate_error
+{
+  width: 143px;
+}
 }
 @media screen and (max-width: 480px){
   #hor_line
