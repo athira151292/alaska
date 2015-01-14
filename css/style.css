@@ -541,7 +541,7 @@ display: none;
     vertical-align: middle; 
 }
 #hor_line{
-	opacity: 0.6;
+	opacity: 0.4;
   text-align: center;
 }
 #footer-partners{
@@ -804,6 +804,47 @@ display: none;
   {
     margin-left: 10%;
   }
+  #first_error
+  {
+    width: 142px;
+  }
+  #last_error
+  {
+    width: 142px;
+  }
+  #email_error
+  {
+width: 148px;
+left: 39px;
+  }
+  #mileage_error
+  {
+width: 142px;
+  }
+  #donate_error
+  {
+    width: 142px;
+  }
+
+#registered_text {
+margin-top: 59px;
+padding-left: 26%;
+width: 53%;
+}
+#center_wrap
+{
+  text-align: center;
+}
+#venue
+{
+  text-align: center;
+  float: none;
+}
+#date
+{
+  float: none;
+}
+
 }
 @media screen and (max-width: 768px){
   #reg-form-heading
@@ -880,7 +921,7 @@ display: none;
 }
 #email_error
 {
-   width: 150px;
+   width: 149px;
 }
 #donate_error
 {
@@ -905,5 +946,62 @@ display: none;
   
 #reg-form-heading {
     font-size: 12px;
+}
+}
+@media screen and (min-width: 640px) and (max-width: 768px){
+  #error_mileage {
+background-color: white;
+position: absolute;
+color: red;
+font-size: 15px;
+left: 38px;
+top: 11px;
+display: none;
+width: 200px;
+}
+
+#error_email {
+background-color: white;
+position: absolute;
+color: red;
+font-size: 15px;
+left: 38px;
+top: 11px;
+display: none;
+width: 200px;
+}
+#email_error
+{
+  width: 149px;
+  left: 40px;
+
+}
+#mileage_error
+{
+  width: 145px;
+}
+#check-age{
+  left: 147px;
+}
+.guest-plus_one
+{
+  padding-left: 18px;
+}
+#center_wrap
+{
+  text-align: center;
+}
+#venue
+{
+  text-align: center;
+}
+#date
+{
+  float: none;
+}
+#partner-logo {
+display: inline-block;
+float: left;
+padding-left: 22%;
 }
 }
