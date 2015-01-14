@@ -75,14 +75,13 @@ function hide_error(id1, id2)
 
                 document.getElementById(id1).style.display='none';
                 document.getElementById(id2).value="";
-                document.getElementById(id2).focus();
             }
-
-/****** to toggle Plus-one part****************/
-
-  $(document).ready(function(){
-  $("#plus_one").click(function(){
-    $("#for-guest").slideToggle();
+function showGuest(guest){
+    // document.getElementById(guest).style.display='block';
+    $(document).ready(function(){
+  $("button").click(function(){
+    $("for-guest").toggle();
   });
 });
+}
 

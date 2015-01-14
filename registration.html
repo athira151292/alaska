@@ -1,9 +1,8 @@
 <html>
 	<head>
 		<title>Alaska-Registration</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" >
 		 <link rel="stylesheet" type="text/css" href="css/style.css">
-		 <link rel="stylesheet" type="text/css" href="css/normalize.css" >
-		 <script type="text/javascript" src="js/reg-successfull.js"></script>
 		 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	</head>
@@ -48,10 +47,14 @@
 												</div>
 										</div>
 										<div class="guest-plus_one">
-											<input type="checkbox" id="plus_one" name="over_age" autocomplete="off"><span id="over-age_text">Plus One</span>
-													<input class="field_registration" id="Guest_fname" type="text"  placeholder="Guest first Name" autocomplete="off" disabled>
-													<input class="field_registration" id="Guest_lname" type="text" placeholder="Guest last name"autocomplete="off" disabled>
+
+											<input type="checkbox" id="plus_one" name="plus-one" autocomplete="off" ><span id="over-age_text">Plus One</span>
+												<div id="for-guest">
+													<input class="field_registration" id="First_Name" type="text"  placeholder="Guest first Name" autocomplete="off" >
+													<input class="field_registration" id="Last_name" type="text" placeholder="Guest last name"autocomplete="off" >
+												</div>
 													<textarea id="question-to-russell" placeholder="Do you have a question for Russell? A few lucky guests will be selected to ask on stage" autocomplete="off"></textarea>
+											
 										</div>
 										<div id="reg_man-container"><img src="images/reg_man.png" id="man"> 
 										</div>
@@ -108,7 +111,8 @@
 
 			</footer>
 		</div>
-
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/reg-successfull.js"></script>
+		
 	</body>
 </html>
