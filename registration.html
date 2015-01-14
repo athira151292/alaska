@@ -28,19 +28,19 @@
 												<div id="guest-info">Primary Guest Information</div>
 												<div class="firstWrapper">
 												    <input class="field_registration" id="First_Name" type="text" title="username"  autofocus="" autocomplete="off" placeholder="First Name" onclick="hide_error('first_error','First_Name')">
-												    <p id="first_error" onclick="hide_error('first_error','First_Name')">Error: Fill out this field.</p>
+												    <p id="first_error" onclick="hide_error('first_error','First_Name')">Error: Enter first name.</p>
 												</div>
 												<div class="lastWrapper">
 												    <input class="field_registration" id="Last_name" type="text" title="last name" autocomplete="off" placeholder="Last name" onclick="hide_error('last_error','Last_name')">
-												    <p id="last_error" onclick="hide_error('last_error','Last_name')">Error: Fill out this field.</p>
+												    <p id="last_error" onclick="hide_error('last_error','Last_name')">Error: Enter last name.</p>
 												</div>
 												<div class="emailWrapper">
 													<input class="field_registration" id="E-mail_address" type="email" title="email id"placeholder="E-mail address" autocomplete="off" onclick="hide_error('email_error','mail_address')">
-													<p id="email_error" onclick="hide_error('email_error','mail_address')">Error: Fill out this field.</p>
+													<p id="email_error" onclick="hide_error('email_error','mail_address')">Error: Enter an email id.</p>
 												</div>
 												<div class="mileageWrapper">
 													<input class="field_registration" id="Mileage" type="text" title="mileage" placeholder="Mileage #" autocomplete="off" onclick="hide_error('mileage_error','Mileage')">
-													<p id="mileage_error" onclick="hide_error('mileage_error','Mileage')">Error: Fill out this field.</p>
+													<p id="mileage_error" onclick="hide_error('mileage_error','Mileage')">Error: Enter mileage.</p>
 												</div>
 												<div class="donateWrapper">
 													<input class="field_registration" id="Donate_mileage" type="text" title="donate mileage" placeholder="Donate mileage plan miles" pattern"[0-9]" onclick="hide_error('donate_error','Donate_mileage')" >
@@ -48,12 +48,10 @@
 												</div>
 										</div>
 										<div class="guest-plus_one">
-											<input type="checkbox" id="plus_one" name="over_age" autocomplete="off" onclick="showGuest('for-guest')" ><span id="over-age_text">Plus One</span>
-												<div id="for-guest">
-													<input class="field_registration" id="First_Name" type="text"  placeholder="Guest first Name" autocomplete="off" >
-													<input class="field_registration" id="Last_name" type="text" placeholder="Guest last name"autocomplete="off" >
+											<input type="checkbox" id="plus_one" name="over_age" autocomplete="off"><span id="over-age_text">Plus One</span>
+													<input class="field_registration" id="Guest_fname" type="text"  placeholder="Guest first Name" autocomplete="off" disabled>
+													<input class="field_registration" id="Guest_lname" type="text" placeholder="Guest last name"autocomplete="off" disabled>
 													<textarea id="question-to-russell" placeholder="Do you have a question for Russell? A few lucky guests will be selected to ask on stage" autocomplete="off"></textarea>
-											</div>
 										</div>
 										<div id="reg_man-container"><img src="images/reg_man.png" id="man"> 
 										</div>

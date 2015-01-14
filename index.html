@@ -25,14 +25,12 @@
 								<form id="form">
 									<div id="form_wrap" method="post">
 										<div class="text_field">
-											<input id="field_mail" type="email" placeholder="Email address" title="email id" autocomplete="off">
-											<p id="email_empty_error" onclick="hide_error('email_empty_error','field_mail')">Error:Fill out this field</p>
+											<input id="field_mail" type="email" placeholder="Email address" title="email id" autocomplete="off" onclick="hide_error('error_email','field_mail')">
 											<p id="error_email" onclick="hide_error('error_email','field_mail')">Error:Enter an email address</p>
 										</div>
 										<div class="text_field">
-											<input id="field_mileage" type="text" placeholder="Mileage #" autocomplete="off">
-											<p id="mileage_empty_error" onclick="hide_error('mileage_empty_error','field_mileage')">Error:Fill out this field</p>
-											<p id="error_mileage" onclick="hide_error('error_mileage','field_mail')">Error:Enter a mileage value</p>
+											<input id="field_mileage" type="text" placeholder="Mileage #" autocomplete="off" onclick="hide_error('error_mileage','field_mileage')">
+											<p id="error_mileage" onclick="hide_error('error_mileage','field_mileage')">Error:Enter a mileage value</p>
 										</div>
 										<input type="button" id="button" onclick="login();" value="Sign in to RSVP">
 									</div>

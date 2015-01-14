@@ -329,8 +329,15 @@ display: none;
     padding-left: 27px;
 
 }
-#for-guest{
-  display: none;
+#Guest_fname{
+     background-image: url("../images/user.png");
+     font-size: 13px;
+     opacity: 0.6;
+}
+#Guest_lname{
+    background-image: url("../images/user.png");
+    font-size: 13px;
+    opacity: 0.6;
 }
 #question-to-russell {
     border-color: #000000;
@@ -387,7 +394,7 @@ display: none;
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 143px;
+    width: 165px;
     background-color: white;
 }
 .lastWrapper
@@ -402,7 +409,7 @@ display: none;
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 143px;
+    width: 162px;
     background-color: white;
 }
 
@@ -418,7 +425,7 @@ display: none;
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 143px;
+    width: 168px;
     background-color: white;
 }
 
@@ -434,7 +441,7 @@ display: none;
     top: 15px;
     left: 42px;
     font-size: 14px;
-    width: 143px;
+    width: 148px;
     background-color: white;
 }
 .donateWrapper{
@@ -445,9 +452,9 @@ display: none;
     color: red;
     position: absolute;
     top: 15px;
-    left: 42px;
+    left: 44px;
     font-size: 14px;
-    width: 154px;
+    width: 167px;
     background-color: white;
 }
 
@@ -702,7 +709,7 @@ display: none;
     }
     #donate_error
     {
-      width: 148px;
+      width: 167px;
     }
     #john
     {

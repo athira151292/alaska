@@ -75,7 +75,5 @@ function hide_error(id1, id2)
 
                 document.getElementById(id1).style.display='none';
                 document.getElementById(id2).value="";
+                document.getElementById(id2).focus();
             }
-function showGuest(guest){
-    document.getElementById(guest).style.display='block';
-}
