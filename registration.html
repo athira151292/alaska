@@ -48,10 +48,12 @@
 												</div>
 										</div>
 										<div class="guest-plus_one">
-											<input type="checkbox" id="plus_one" name="over_age" autocomplete="off" ><span id="over-age_text">Plus One</span>
-											<input class="field_registration" id="First_Name" type="text"  placeholder="Guest first Name" autocomplete="off" >
-											<input class="field_registration" id="Last_name" type="text" placeholder="Guest last name"autocomplete="off" >
-											<textarea id="question-to-russell" placeholder="Do you have a question for Russell? A few lucky guests will be selected to ask on stage" autocomplete="off"></textarea>
+											<input type="checkbox" id="plus_one" name="over_age" autocomplete="off" onclick="showGuest('for-guest')" ><span id="over-age_text">Plus One</span>
+												<div id="for-guest">
+													<input class="field_registration" id="First_Name" type="text"  placeholder="Guest first Name" autocomplete="off" >
+													<input class="field_registration" id="Last_name" type="text" placeholder="Guest last name"autocomplete="off" >
+													<textarea id="question-to-russell" placeholder="Do you have a question for Russell? A few lucky guests will be selected to ask on stage" autocomplete="off"></textarea>
+											</div>
 										</div>
 										<div id="reg_man-container"><img src="images/reg_man.png" id="man"> 
 										</div>

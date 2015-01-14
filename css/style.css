@@ -309,6 +309,9 @@ display: none;
     padding-left: 27px;
 
 }
+#for-guest{
+  display: none;
+}
 #question-to-russell {
     border-color: #000000;
     border-radius: 0;
